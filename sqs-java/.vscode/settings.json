@@ -1,0 +1,48 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "sampledb.cimr0kdyqj64.us-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rsd2",
+            "username": "admin",
+            "database": "sys",
+            "password": "Password!123",
+            "connectionTimeout": 300
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "database-2.cj8000i6gxgi.eu-west-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rds1",
+            "database": "sys",
+            "username": "admin",
+            "password": "Chitra123"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "database-2.cj8000i6gxgi.eu-west-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "rsd3",
+            "database": "sys",
+            "username": "admin",
+            "password": "Chitra123",
+            "connectionTimeout": 400
+        }
+    ]
+}
